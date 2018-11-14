@@ -11,6 +11,10 @@ $(function() {
 	});
 });
 
+// document.getElementByClass('button').onclick = function () {
+// 	document.getElementByClass('popup').classList.toggle('d-none');
+// }
+
 document.getElementById('alert').onclick = function() {
 	alert('Done!');
 	location.reload();
